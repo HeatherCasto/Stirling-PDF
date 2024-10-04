@@ -24,9 +24,10 @@ select#font-select option {
   width: 100%;
   display: flex;
   gap: 5px;
+  z-index: 5;
 }
 .draggable-buttons-box > button {
-  z-index: 10;
+  z-index: 4;
   background-color: rgba(13, 110, 253, 0.1);
 }
 .draggable-canvas {
@@ -36,4 +37,5 @@ select#font-select option {
   user-select: none;
   top: 0px;
   left: 0;
+  z-index: 100;
 }
